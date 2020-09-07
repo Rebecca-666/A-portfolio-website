@@ -13,7 +13,9 @@
 
 .btn-main {
   color: #333;
-  background-color: #ffbc00; }
+  background-color:#f794af; }
+  /* #f794af */
+  /* ffbc00 */
 
 .btn-light {
   color: #333;
@@ -26,10 +28,10 @@
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
-  background-color: #ffbc00; }
+  background-color: #f794af; }
 
 .bg-main {
-  background: #ffbc00;
+  background: #f794af;
   color: #fff; }
 
 .bg-dark {
@@ -86,7 +88,7 @@ input[class^='btn-']:hover {
 .bottom-line {
   height: 2px;
   width: 3rem;
-  background: #ffbc00;
+  background: #f794af;
   display: block;
   margin: 0 auto 1rem auto; }
 
@@ -97,7 +99,7 @@ input[class^='btn-']:hover {
 
 .item {
   position: relative;
-  background: #ffbc00;
+  background: #f794af;
   overflow: hidden; }
   .item::after {
     content: '';
@@ -133,7 +135,7 @@ input[class^='btn-']:hover {
     top: 0;
     left: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
     line-height: 0; }
   .item-text {
     position: absolute;
@@ -188,8 +190,8 @@ img {
   width: 100%; }
 
 #logo {
-  width: 70px;
-  height: 70px;
+  width: 150px;
+  height: 80px;
   color: #fff;
   text-transform: uppercase; }
 
@@ -211,10 +213,10 @@ img {
     #main-nav a:hover {
       border-color: #ccc; }
     #main-nav a.current {
-      border-color: #ffbc00; }
+      border-color: #f794af; }
 
 #header-home {
-  background: url("../img/showcase.jpg") no-repeat center right/cover;
+  background: url("../img/showcase_girl.jpg") no-repeat center right/cover;
   height: 100vh;
   color: #fff; }
   #header-home .header-content {
@@ -225,9 +227,9 @@ img {
       line-height: 1.2; }
 
 #header-inner {
-  background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
+  background: url("../img/showcase_girl.jpg") no-repeat 20% 30%/cover;
   height: 5.5rem;
-  border-bottom: 3px solid #ffbc00; }
+  border-bottom: 3px solid #f794af; }
 
 #home-a .specials {
   margin-top: 3rem;
@@ -235,7 +237,7 @@ img {
   grid-gap: 1rem;
   grid-template-columns: repeat(4, 1fr); }
   #home-a .specials .fas {
-    color: #ffbc00;
+    color: #f794af;
     padding-bottom: 0.4rem; }
 
 #home-b .stats {
@@ -265,7 +267,7 @@ img {
     top: 0;
     right: 0;
     font-size: 28px;
-    background: #ffbc00;
+    background: #f794af;
     color: #fff;
     border-radius: 50%;
     height: 15px;
@@ -285,7 +287,7 @@ img {
     position: relative;
     transition: all 1s; }
     #home-c .process-icon:hover {
-      background: #ffbc00;
+      background: #f794af;
       width: 90px;
       height: 90px;
       line-height: 90px; }
@@ -303,7 +305,7 @@ img {
 
 #about-a .bio {
   grid-area: bio;
-  border-left: 3px solid #ffbc00;
+  border-left: 3px solid #f794af;
   padding: 0.8rem; }
 
 #about-a .award-1 {
@@ -318,7 +320,7 @@ img {
 #about-a .award-1 .fas,
 #about-a .award-2 .fas,
 #about-a .award-3 .fas {
-  color: #ffbc00;
+  color: #f794af;
   margin: 1rem; }
 
 #about-b .progress {
@@ -331,7 +333,7 @@ img {
     height: 100%;
     color: #fff;
     text-align: center;
-    background: #ffbc00; }
+    background: #f794af; }
 
 #about-c .about-logos {
   display: grid;
@@ -409,7 +411,7 @@ img {
       text-align: center;
       padding: 0.5rem; }
       #main-footer .footer-content .social .fab:hover {
-        background: #ffbc00; }
+        background: #f794af; }
 
 @media (max-width: 800px) {
   #header-home {
@@ -425,7 +427,7 @@ img {
       padding: 1rem; }
   #header-home {
     height: 10rem;
-    border-bottom: 3px solid #ffbc00;
+    border-bottom: 3px solid #f794af;
     background-position: 20% 30%; }
     #header-home .header-content {
       display: none; }
